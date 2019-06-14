@@ -1,0 +1,13 @@
+C:\Users\ZROS\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\bin\Debug\netstandard2.0\XamarinNotesApp.deps.json
+C:\Users\ZROS\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\bin\Debug\netstandard2.0\XamarinNotesApp.dll
+C:\Users\ZROS\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\bin\Debug\netstandard2.0\XamarinNotesApp.pdb
+C:\Users\ZROS\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamarinNotesApp.csprojAssemblyReference.cache
+C:\Users\ZROS\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ZROS\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\GreenNotes\NotePage.xaml.g.cs
+C:\Users\ZROS\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ZROS\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamarinNotesApp.csproj.CoreCompileInputs.cache
+C:\Users\ZROS\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamarinNotesApp.AssemblyInfoInputs.cache
+C:\Users\ZROS\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamarinNotesApp.AssemblyInfo.cs
+C:\Users\ZROS\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ZROS\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamarinNotesApp.dll
+C:\Users\ZROS\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamarinNotesApp.pdb
