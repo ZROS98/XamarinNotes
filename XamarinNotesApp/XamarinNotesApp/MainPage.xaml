@@ -14,7 +14,7 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="40" />
         </Grid.RowDefinitions>
-        <ListView x:Name="noteListLeft" ItemsSource="{Binding lowPriorityList}" Grid.Row="0"  Grid.Column="0" Margin="10,0,5,10" >
+        <ListView x:Name="noteListLeft" ItemsSource="{Binding lowPriorityList}" ItemSelected="OnItemSelected" Grid.Row="0"  Grid.Column="0" Margin="10,0,5,10" >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell >

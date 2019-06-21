@@ -25,8 +25,6 @@ namespace XamarinNotesApp {
 
         protected override void OnAppearing() {
 
-          
-            
             List<Note> AllNotes = new List<Note>(App.Database.GetItems());
             lowPriorityList = AllNotes.Where(n => n.Priority == 0).ToList<Note>();
             midPriorityList = AllNotes.Where(n => n.Priority == 1).ToList<Note>();
@@ -36,13 +34,14 @@ namespace XamarinNotesApp {
             noteListCentral.ItemsSource = midPriorityList;
             noteListRight.ItemsSource = highPriorityList;
 
-            //App.database.Drop(); dropping database
+            //App.database.Drop(); //dropping database
 
             base.OnAppearing();
         }
 
 
         private async void OnItemSelected(object sender, SelectedItemChangedEventArgs e) {
+
             Note selectedNote = (Note) e.SelectedItem;
             NotePage notePage = new NotePage(this);
             notePage.BindingContext = selectedNote;
@@ -50,14 +49,13 @@ namespace XamarinNotesApp {
         }
 
         private async void CreateNote(object sender, EventArgs e) {
+
             Note note = new Note();
             NotePage notePage = new NotePage(this);
             notePage.BindingContext = note;
             await Navigation.PushAsync(notePage);
         }
 
-        public void ChangeColor(Color color) {
-            //noteList.BackgroundColor = color;
-        }
+        
     }
 }

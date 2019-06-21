@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinNotesApp.NotePage">
+    <StackLayout BackgroundColor="Gray">
+        <Label Text="Title" HorizontalOptions="Center"/>
+        <Entry Text="{Binding Title}" MaxLength="20"/>
+        <Label Text="Text" HorizontalOptions="Center"/>
+        <Entry Text="{Binding Text}" MaxLength="300" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button Text="Save" Clicked="SaveNote"  />
+            <Button Text="Delete" Clicked="DeleteNote" />
+            <Button Text="Cancel" Clicked="Cancel" />
+        </StackLayout>
+        <StackLayout>
+            <Button  BackgroundColor="#1FFF00" Clicked="CollorGreen" />
+            <Button  BackgroundColor="#E8FF00" Clicked="CollorYellow"  />
+            <Button BackgroundColor="#FF2D00" Clicked="CollorRed"  />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
